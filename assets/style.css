@@ -69,3 +69,25 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.slot{
+  display: flex;
+  justify-content:center;
+  height: 10vh;
+}
+
+.slot h2{
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 3em;
+  text-transform: uppercase;
+}
+
+.slot input{
+  flex-grow: 2;
+}
+
+.slot button{
+  flex-grow: 1;
+  max-width: 4em;
+}
