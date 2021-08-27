@@ -74,6 +74,7 @@ textarea {
   display: flex;
   justify-content:center;
   height: 10vh;
+  cursor: pointer;
 }
 
 .slot h2{
